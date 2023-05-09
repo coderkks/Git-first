@@ -1,1 +1,8 @@
-mylogs.log
+/mylogs.log
+# above line will ignore this file only in this folder, not in other folders.
+
+*.log
+# above line is the command to ignore all the file having '.log' extension. like "*.cpp" will ignore all .cpp files.
+
+Ignore/
+# this line('/') shows this is a folder.
